@@ -6,7 +6,7 @@ export default function PopupWithForm({ name, title, children, buttonSubmitText,
             <div className="popup__container">
                 <h3 className="popup__title">{title}</h3>
                 <button type="button" aria-label="Закрыть"
-                    className="popup__button-close" onClick={onClose}></button>
+                    className="popup__button-close" onClick={onClose} />
                 <form name={name} action="#" className={`popup__form popup__form_type_${name}`} noValidate>
                     {children}
                     <button type="submit" aria-label={buttonSubmitText}

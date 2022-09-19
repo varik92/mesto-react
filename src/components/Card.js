@@ -8,11 +8,11 @@ export default function Card({ card, onCardClick }) {
             <div className="element__content">
                 <h2 className="element__title">{card.name}</h2>
                 <div className="element__like-container">
-                    <button type="button" className="element__like-button"></button>
+                    <button type="button" className="element__like-button" />
                     <span className="element__like-count">{card.likes.length}</span>
                 </div>
             </div>
-            <button type="button" className="element__delete-button"></button>
+            <button type="button" className="element__delete-button" />
         </li>
     )
 }

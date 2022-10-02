@@ -42,7 +42,6 @@
 @import url(./blocks/element/__like-count/element__like-count.css);
 @import url(./blocks/element/__like-container/element__like-container.css);
 @import url(./blocks/popup/__container/_type/_delete-confirm/popup__container_type_delete-confirm.css);
-@import url(./blocks/popup/__button-save/_type/_delete-confirm/popup__button-save_type_delete-confirm.css);
 @import url(./blocks/profile/__avatar-edit-button/profile__avatar-edit-button.css);
 @import url(./blocks/profile/__avatar-container/profile__avatar-container.css);
 @import url(./blocks/popup/__container/_type/_change-avatar/popup__container_type_change-avatar.css);

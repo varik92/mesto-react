@@ -66,6 +66,14 @@ class Api {
             headers: this._headers,
         }).then((res) => this._checkResponse(res));
     }
+
+    changeLikeCardStatus(cardId, likeStatus) {
+        if (!likeStatus) {
+            return this.deleteCardLike(cardId);
+        } else {
+            return this.addCardLike(cardId);
+        }
+    }
 }
 
 export const api = new Api({
